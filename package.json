@@ -1,0 +1,23 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "description": "Repo for training BlockChain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladi99/BlockChain.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vladi99/BlockChain/issues"
+  },
+  "homepage": "https://github.com/vladi99/BlockChain#readme",
+  "dependencies": {
+    "ethereumjs-testrpc": "^6.0.1",
+    "web3": "^0.20.1"
+  }
+}
