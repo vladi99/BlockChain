@@ -5,10 +5,14 @@ Repo for training BlockChain
 
 ### Usage of voting system
 1. copy code below in your terminal
-```javascript
+```bash
 git clone https://github.com/vladi99/BlockChain.git
 cd BlockChain
 npm install
+node_modules/.bin/testrpc
+```
+2. Open another terminal and copy code below
+```javascript
 cd hello_world_voting
 node
 var fs = require('fs');
@@ -25,6 +29,7 @@ deployedContract = VotingContract.new(['Rama','Nick','Jose'],{data: byteCode, fr
 deployedContract.address;
 
 ```
-2. copy output and paste it in hello_world_voting/index.js at 5-th line
+3. copy output and paste it in hello_world_voting/index.js at 5-th line.
+Open index.html and you have test decentralized voting system working with etherium;
 
 
