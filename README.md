@@ -23,7 +23,8 @@ VotingContract = web3.eth.contract(abiDefinition);
 byteCode = compiledCode.contracts[':Voting'].bytecode;
 deployedContract = VotingContract.new(['Rama','Nick','Jose'],{data: byteCode, from: web3.eth.accounts[0], gas: 4700000});
 deployedContract.address;
+
 ```
-2. copy output and paste it in hello_world_voting index.js at 5-th line
+2. copy output and paste it in hello_world_voting/index.js at 5-th line
 
 
